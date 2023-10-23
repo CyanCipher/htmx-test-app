@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../htmx.min.js"></script>
+    <link href="./output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMX Site</title>
+</head>
+<body>
+    <div>
+        <form method="POST" action="/form">     
+            <div class="grid mr-10 grid-flow-row content-center justify-center py-40">
+                <label class="block font-sans text-2xl">Name</label><input class="focus:text-white focus:text-lg w-50 h-20 block rounded-md bg-gray-700" name="name" type="text" value="" />
+                <label class="block font-sans text-2xl">Address</label><input class="focus:text-white focus:text-lg w-50 h-20 block rounded-md bg-gray-700" name="address" type="text" value="" />
+                <input class="block bg-cyan-900 font-sans text-xl rounded-md" type="submit" value="submit" />
+            </div>
+
+        </form>
+      </div>
+</body>
+</html>
